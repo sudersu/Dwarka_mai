@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DailyList Pro</string>
+    <string name="add_task">Add New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="app_description">A simple and easy-to-use to-do list app with reminders</string>
+    <string name="share_app_subject">Check out DailyList Pro!</string>
+    <string name="share_app_text">I\'m using DailyList Pro to manage my tasks. You can download it here: [App Download Link]</string>
+</resources>
+

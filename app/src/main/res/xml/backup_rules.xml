@@ -1,0 +1,7 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="sharedpref" path="DailyListPro.xml"/>
+    <include domain="database" path="task_database"/>
+</full-backup-content>
+

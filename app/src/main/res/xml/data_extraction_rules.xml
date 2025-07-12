@@ -1,0 +1,10 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup disableIfNoEncryptionCapabilities="true">
+        <include domain="file" path="."/>
+        <exclude domain="file" path="/data_extraction_rules.xml"/>
+        <exclude domain="file" path="/backup_rules.xml"/>
+    </cloud-backup>
+</data-extraction-rules>
+
