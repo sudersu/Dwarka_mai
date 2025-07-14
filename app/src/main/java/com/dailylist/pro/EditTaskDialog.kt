@@ -109,7 +109,7 @@ class EditTaskDialog(private val taskToEdit: Task) : DialogFragment() {
         if (reminderEnabled) {
             AlarmScheduler.scheduleAlarm(requireContext(), updatedTask)
         } else {
-            AlarmScheduler.cancelAlarm(requireContext(), updatedTask)
+            AlarmScheduler.cancelAlarm(requireContext(), updatedTask.id)
         }
         Toast.makeText(requireContext(), "Task updated: $taskName", Toast.LENGTH_SHORT).show()
         dismiss()
